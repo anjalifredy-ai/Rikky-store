@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RikkyStore</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#f5f5f5;
+margin:0;
+}
+
+header{
+background:#111827;
+color:white;
+padding:15px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
+
+.search{
+padding:20px;
+}
+
+.search input{
+width:100%;
+padding:12px;
+border-radius:10px;
+border:none;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.btns{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+margin-top:10px;
+}
+
+button{
+padding:10px;
+border:none;
+border-radius:8px;
+color:white;
+cursor:pointer;
+}
+
+.amazon{background:#ff9900;}
+.flipkart{background:#2874f0;}
+.myntra{background:#ff3f6c;}
+.meesho{background:#9c27b0;}
+</style>
+
+</head>
+<body>
+
+<header>RikkyStore</header>
+
+<div class="search">
+<input type="text" placeholder="Search Products">
+</div>
+
+<div class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/300x200">
+<h3>iPhone 16</h3>
+
+<div class="btns">
+<button class="amazon">Amazon</button>
+<button class="flipkart">Flipkart</button>
+<button class="myntra">Myntra</button>
+<button class="meesho">Meesho</button>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
